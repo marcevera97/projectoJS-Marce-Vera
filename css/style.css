@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    background-color: blue;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: auto;
+    width: 30%;
+}
