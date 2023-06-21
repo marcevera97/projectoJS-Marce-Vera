@@ -1,0 +1,51 @@
+body{
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template: 100px auto 100px / 300px repeat(2,1fr);
+    grid-template-areas:
+    "header main main"
+    "header main main"
+    "header footer footer"
+}
+header{
+    grid-area: header;
+    background-color: aqua;
+}
+
+main{
+    grid-area: main;
+    background-color: white;
+}
+
+footer{
+    grid-area: footer;
+    background-color: orangered;
+}
+
+header{
+    a{
+        padding: 10px 20px 10px 20px;
+    }
+    nav{
+        ul{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            font-size: 25px;
+            gap: 20px;
+            li{
+                a{
+                    text-decoration: none;
+                    color: black;
+                }
+            }
+        }
+    }
+}
+.nav{
+    li{
+        list-style: none;
+        gap: 30px;
+    }
+}
