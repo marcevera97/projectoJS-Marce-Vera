@@ -49,6 +49,20 @@ main h1 {
   justify-content: center;
   margin-top: 20px; }
 
+main div fieldset legend {
+  text-align: center;
+  margin: 10px 0px 10px 0px; }
+
+main div fieldset input {
+  display: flex;
+  flex-direction: row;
+  justify-content: end; }
+
+main div label {
+  display: flex;
+  justify-content: center;
+  text-align: center; }
+
 footer section a {
   display: flex;
   flex-direction: row;
