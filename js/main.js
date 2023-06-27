@@ -1,5 +1,10 @@
+let mensaje = prompt("bienvenido, por favor ingrese su nombre!")
+
+    alert("Bienvenido a emporio fiestas " + mensaje)
 
 let promoFiesta = parseInt(prompt("ingrese sus promos a comprar"));
+
+//se solicita al cliente que ingrese un numero
 
 if (isNaN(promoFiesta)) {
 
@@ -7,9 +12,11 @@ if (isNaN(promoFiesta)) {
 
 }
 
+//en caso de que ingrese el numero 0 no deja seguir la operacion
+
 else if (promoFiesta < 0) {
 
-    alert("por favor, ingrese un numero mayou a 1")
+    alert("por favor, ingrese un numero > 0")
 
 }
 
@@ -18,10 +25,12 @@ else {
     let totalDeCompra = 0;
     let listaDeProductosSeleccionados = "";
 
+//se le solicita al cliente cuantos productos quiere comprar
 
     for (let i = 0; i < promoFiesta; i++) {
 
         let producto = parseInt(prompt("ingrese el numero de promo"));
+
 
         if (producto == 1) {
 
@@ -45,6 +54,8 @@ else {
             totalDeCompra += 6700;
         }
 
+// en caso de que ingrese un producto que no esta en la lista me muestra un mensaje
+
         else {
 
             alert("producto no encontrado")
@@ -52,6 +63,8 @@ else {
 
 
     }
+
+// me muestra en el index los datos seleccionados
 
     document.write("lista de articulos seleccionados :<br> " + listaDeProductosSeleccionados + "<br>");
     document.write("el total de la compra es : $ " + totalDeCompra);

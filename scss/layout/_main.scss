@@ -7,22 +7,10 @@ main{
     }
 }
 main{
-    div{
-        fieldset{
-            legend{
-                text-align: center;
-                margin: 10px 0px 10px 0px;
-            }
-            input{
-                display: flex;
-                flex-direction: row;
-                justify-content: end;
-            }
-        }
-        label{
-            display: flex;
-            justify-content: center;
-            text-align: center;
+    ul{
+        li{
+            list-style: none;
+            
         }
     }
 }
