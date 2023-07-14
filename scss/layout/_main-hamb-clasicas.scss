@@ -1,0 +1,40 @@
+.linea1-grids{
+    @include grid (repeat(8,1fr),repeat(2,1fr),none,none,none);
+    margin-top: 30px;
+}
+.linea2-grids{
+    @include grid (repeat(8,1fr),repeat(2,1fr),none,none,none);
+    margin-top: 30px;
+}
+.swift-24F-grids{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    align-self: center;
+    text-align: center;
+}
+.UG-24F-grids{
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    align-self: center;
+    text-align: center;
+}
+.paty-clasico-24F-grids{
+    grid-column-start: 5;
+    grid-column-end: 7;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    align-self: center;
+    text-align: center;
+}
+.maxi-mesa-24F-grids{
+    grid-column-start: 7;
+    grid-column-end: 9;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    align-self: center;
+    text-align: center;
+}
